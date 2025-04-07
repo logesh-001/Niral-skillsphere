@@ -2,17 +2,17 @@
 final List<Map<String, String>> onboardingPages = [
   {
     "image": "assets/images/illustration 01.png",
-    "title": "Welcome to Flutter",
-    "description": "Build beautiful native apps easily with Flutter."
+    "title": "Numerous free trial courses",
+    "description": "Free courses for you to find your way to learning"
   },
   {
     "image": "assets/images/illustration_2.png",
-    "title": "Fast & Efficient",
-    "description": "Flutter is optimized for fast performance."
+    "title": "Quick and easy learning",
+    "description": "Easy and fast learning at /n any time to help you /n improve various skills"
   },
   {
     "image": "assets/images/illustration.png",
-    "title": "Let's Get Started",
-    "description": "Start your journey with Flutter today!"
+    "title": "Create your own study plan",
+    "description": "Study according to the /n study plan, make study /n more motivated"
   },
 ];

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:skillsphere/pages/Bottomnavbar.dart';
 // import 'package:firebase_core/firebase_core.dart';
 import 'package:skillsphere/pages/onboard.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.grey),
       ),
-      home: OnboardingScreen(), // Ensure OnboardingScreen exists
+      home: BottomNavbar(key: BottomNavbar.bottomNavbarKey), // Ensure OnboardingScreen exists
     );
   }
 }

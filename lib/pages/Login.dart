@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:skillsphere/pages/Bottomnavbar.dart';
 import 'package:skillsphere/pages/PhoneNumberScreen.dart';
 
 
@@ -46,12 +47,13 @@ class LoginPage extends StatelessWidget {
             ),
             SizedBox(height: 24),
             ElevatedButton(
-              onPressed: () {Navigator.push(context, MaterialPageRoute(builder:(context)=>PhoneNumberScreen()));
+              onPressed: () {Navigator.push(context, MaterialPageRoute(builder:(context)=>BottomNavbar()));
               },
               style: ElevatedButton.styleFrom(
                 minimumSize: Size(double.infinity, 50),
+                backgroundColor: Color(0xFFFF3D40)
               ),
-              child: Text('Login'),
+              child: Text('Login',style: TextStyle(color: Colors.white),),
             ),
             SizedBox(height: 16),
             TextButton(

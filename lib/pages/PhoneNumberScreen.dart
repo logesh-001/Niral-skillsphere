@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:skillsphere/pages/Bottomnavbar.dart';
 
 class PhoneNumberScreen extends StatefulWidget {
   @override
@@ -86,10 +87,10 @@ class _PhoneNumberScreenState extends State<PhoneNumberScreen> {
                       SizedBox(width: 10),
                       ElevatedButton(
                         onPressed: () {
-                          print("Continue pressed with $phoneNumber");
+                          Navigator.push(context, MaterialPageRoute(builder: (context)=>BottomNavbar()));
                         },
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.blue,
+                backgroundColor: Color(0xFFFF3D40),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10),
                           ),

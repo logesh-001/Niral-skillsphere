@@ -62,7 +62,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 height: 10,
                 width: _currentPage == index ? 20 : 10,
                 decoration: BoxDecoration(
-                  color: _currentPage == index ? Colors.blue : Colors.grey,
+                  color: _currentPage == index ? Color(0xFFFF3D40) : Colors.grey,
                   borderRadius: BorderRadius.circular(5),
                 ),
               ),
@@ -85,7 +85,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
     ),
     
-    backgroundColor: Colors.green),
+    backgroundColor: Color(0xFFFF3D40)),
                 ),
                 ElevatedButton(onPressed: () {
   if (_currentPage == onboardingPages.length - 1) {
